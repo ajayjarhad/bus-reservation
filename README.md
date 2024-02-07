@@ -1,4 +1,4 @@
-# Bus Reservation Appp
+# Bus Reservation App
 
 This app has 2 views.
 
