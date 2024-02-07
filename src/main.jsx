@@ -18,6 +18,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Navbar />,
     children: [
+      { index: true, element: <Reservation /> }, // Redirect home routes to Reservation route
       { path: "dashboard", element: <Dashboard /> },
       { path: "reservation", element: <Reservation /> },
     ],
