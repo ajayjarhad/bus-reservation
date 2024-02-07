@@ -35,7 +35,7 @@ export default function Deck({
         );
       }
     },
-    [disableBooked, addAlerts]
+    [disableBooked]
   );
 
   const handleClose = React.useCallback(() => setIsModalOpen(false), []);
