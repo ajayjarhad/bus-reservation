@@ -1,4 +1,4 @@
-# Bus Reservation App
+# [Bus Reservation App](https://bus-reservation-auth.netlify.app)
 
 This app has 2 views.
 
@@ -37,7 +37,7 @@ Clone the repo
 
 Install the npm packages
 
-    yarn install
+    pnpm install
 Run dev-server
 
-    yarn dev
+    pnpm dev
