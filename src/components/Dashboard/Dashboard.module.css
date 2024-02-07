@@ -14,7 +14,7 @@
   padding: var(--padding-large);
   margin-bottom: var(--padding-medium);
   box-shadow: var(--box-shadow);
-  width: 300px;
+  width: 400px;
   border-left: 5px solid var(--success-color);
   transition: transform 0.2s ease-in-out;
   cursor: pointer;

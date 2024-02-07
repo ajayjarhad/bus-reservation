@@ -44,12 +44,15 @@ export default function Dashboard() {
                   <strong>
                     {reservedBy.firstName} {reservedBy.lastName}
                   </strong>
-                  <div>
-                    On -{" "}
-                    <strong>
-                      {new Date(reservedBy.date).toLocaleDateString()}
-                    </strong>
-                  </div>
+                </div>
+                <div>
+                  Email - <strong>{reservedBy.email}</strong>
+                </div>
+                <div>
+                  On -{" "}
+                  <strong>
+                    {new Date(reservedBy.date).toLocaleDateString()}
+                  </strong>
                 </div>
               </div>
             </li>
