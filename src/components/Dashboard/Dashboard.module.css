@@ -1,0 +1,28 @@
+.dashboard__booking {
+  display: grid;
+  justify-content: center;
+  margin-top: calc(3 * var(--padding-xxxl));
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.dashboard__booking-heading {
+  text-align: center;
+  margin-bottom: var(--padding-xxxl);
+}
+
+.dashboard__booking-item {
+  padding: var(--padding-large);
+  margin-bottom: var(--padding-medium);
+  box-shadow: var(--box-shadow);
+  width: 300px;
+  border-left: 5px solid var(--success-color);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.dashboard__booking-item:hover {
+  transform: scale(1.05);
+}
+.dashboard__booking-list {
+  list-style: none;
+}

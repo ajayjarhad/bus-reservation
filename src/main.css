@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+  --primary-color: #1c1c1c;
+  --secondary-color: #daddd8;
+  --tertiary-color: #ecebe4;
+  --success-color: #2d6a4f;
+  --danger-color: #c9184a;
+  --neutral-color: #6c757d;
+  --white-color: #ffffff;
+  --padding-small: 8px;
+  --padding-medium: 12px;
+  --padding-large: 16px;
+  --padding-xl: 20px;
+  --padding-xxl: 24px;
+  --padding-xxxl: 28px;
+  --font-small: 12px;
+  --font-medium: 16px;
+  --font-large: 20px;
+  --box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

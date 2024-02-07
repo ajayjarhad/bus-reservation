@@ -1,0 +1,22 @@
+.deck {
+  margin-bottom: calc(var(--padding-medium) + var(--padding-xxxl));
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.deck__title {
+  margin-bottom: var(--padding-xxl);
+  text-align: center;
+}
+.deck__title:first-child {
+  margin-top: var(--padding-xxl);
+}
+.deck__seat-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr) 1fr;
+  grid-gap: var(--padding-medium);
+  width: 100%;
+  border: 1px solid #000;
+  padding: var(--padding-xxl);
+  box-shadow: var(--box-shadow);
+}

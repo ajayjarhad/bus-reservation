@@ -1,0 +1,43 @@
+.seat {
+  border: 1px solid #000;
+  padding: var(--padding-medium);
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.seat--available {
+  background-color: #377771;
+  transition: transform 0.2s ease-in-out;
+}
+
+.seat--available:hover {
+  transform: scale(1.1);
+  box-shadow: var(--box-shadow);
+}
+
+.seat--blocked {
+  cursor: not-allowed;
+}
+
+.seat--reserved {
+  background-color: #c41e3d;
+}
+
+.seat:nth-child(7),
+.seat:nth-child(14) {
+  transform: rotate(90deg) translateX(16px) translateY(-20px);
+  max-width: 100px;
+}
+
+.seat:nth-child(14) {
+  transform: rotate(90deg) translateX(85px) translateY(-20px);
+}
+
+.seat:nth-child(n + 15):nth-child(-n + 20) {
+  margin-top: calc(
+    var(--padding-medium) + var(--padding-xxxl)
+  ); /* This creates space before the third row to resemble the wireframe that was shared */
+}

@@ -1,0 +1,6 @@
+.bus {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  margin-top: calc(3 * var(--padding-xxxl));
+}

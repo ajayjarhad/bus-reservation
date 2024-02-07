@@ -1,0 +1,47 @@
+.booking-form__title {
+  text-align: center;
+}
+
+.booking-form__form {
+  display: grid;
+  margin-top: var(--padding-xl);
+}
+
+.booking-form__input {
+  height: var(--padding-xxxl);
+  margin: var(--padding-small) 0 var(--padding-xl) 0;
+  padding: var(--padding-large);
+}
+.booking-form__input:focus {
+  border: 3px solid var(--primary-color);
+}
+
+.booking-form__btn-group {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  justify-content: center;
+  column-gap: var(--padding-large);
+}
+
+.booking-form__btn {
+  padding: var(--padding-small) 6px;
+  color: var(--white-color);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.booking-form__btn:hover {
+  filter: brightness(75%);
+  transform: scale(1.1);
+}
+
+.booking-form__btn--book {
+  background-color: var(--success-color);
+}
+
+.booking-form__btn--cancel {
+  background-color: var(--danger-color);
+}

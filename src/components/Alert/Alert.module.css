@@ -1,0 +1,34 @@
+.alert {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: var(--padding-medium);
+  z-index: 10;
+  width: 300px;
+}
+
+.alert__message {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  padding: var(--padding-medium);
+  margin-bottom: var(--padding-medium);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  line-height: var(--padding-xl);
+  animation: fadeInOut 5s;
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
